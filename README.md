@@ -21,11 +21,11 @@ Replace /path/of/the/file with the actual path where you copied the script file.
 
 5.Save the .bashrc file and exit the text editor.
 
-6.That's it! Whenever a user executes a dangerous command in their bash session and the command is saved in the session history file,When another user logs in to a different session, the script will be applied and will modify the command in the form dangerous-command [command] to prevent accidental execution.
+6.That's it! Whenever a user executes a dangerous command in their bash session and the command is saved in the session history file,When another user logs in to a different session, the script will be applied and will modify the command as below to prevent accidental execution of potentially harmful commands.
+
 ```
 dangerous-command [command]
 ```
-to prevent accidental execution of potentially harmful commands.
 
 Feel free to customize the script according to your needs and add any additional dangerous command keywords to the KEYWORDS field.
 
