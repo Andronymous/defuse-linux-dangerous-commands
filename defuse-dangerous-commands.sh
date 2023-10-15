@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Specify the keywords to search for
-KEYWORDS=("reboot" "poweroff" "rm" )
+KEYWORDS=("reboot" "poweroff" "systemctl " "delete " "rm " "mv " "kill" "fsck" "passwd" "iptables" "chmod" "chown" "dd" "mkfs" "restart")
 
 # Loop through each keyword
 for keyword in "${KEYWORDS[@]}"; do
